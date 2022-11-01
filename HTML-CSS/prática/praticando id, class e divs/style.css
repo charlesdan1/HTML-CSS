@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+body {
+    font: normal bold  1em arial, sans-serif;
+}
+
+#principal {
+    background-color: aqua;
+}
+
+.basico {
+    color: mediumpurple;
+    text-align: center;
+}
+
+.medio {
+    color: darkmagenta;
+}
+
+.avançado {
+    color: deeppink;
+}
+
+div > p {
+    display: none;
+}
+
+div:hover > p {
+    display: block;
+    color: blue;
+    background-color: blueviolet;
+}
+
+div:hover {
+    color: chartreuse;
+}
+
+.div2 > p {
+    color: crimson;
+}
+
+.div2 {
+        color: aquamarine;
+}

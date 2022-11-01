@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+body {
+    font: italic bold 1em arial, sans-serif;
+}
+
+div:hover {
+    color: fuchsia;
+}
+
+div > p {
+    display: none;
+}
+
+div:hover > p {
+    display: block;
+    color: rgb(255, 255, 255);
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 0, 255);
+}
+

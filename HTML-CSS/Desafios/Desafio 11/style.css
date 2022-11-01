@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+#fundo img {
+    min-width: 320px;
+    max-width: 100%;
+    min-height: 520px;
+    max-height: 900px;
+}
